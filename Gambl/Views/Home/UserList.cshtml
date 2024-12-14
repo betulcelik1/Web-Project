@@ -1,0 +1,25 @@
+@model IEnumerable<UserInfo>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(m=>m.UserId)</th>
+                <th>@Html.DisplayNameFor(m=>m.UserFN)</th>
+                <th>@Html.DisplayNameFor(m=>m.UserLN)</th>
+               
+                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var a in Model){
+            <tr>
+                <td>@Html.DisplayFor(modelItem=>a.UserId)</td>
+                <td>@Html.DisplayFor(modelItem=>a.UserFN)</td>
+                <td>@Html.DisplayFor(modelItem=>a.UserLN)</td>
+                <td><a asp-controller="Home" asp-action="MyAccount" asp-route-id="@a.UserId" class="btn btn-sm btn-primary">View</a></td>
+            </tr>
+            }
+            
+        </tbody>
+    </table>

@@ -1,0 +1,24 @@
+@model CourseInfo
+<h2>Course Create</h2>
+<hr>
+<form asp-controller="CreateCourse" asp-action="CreateCourse">
+    <div>
+    <label asp-for="CourseName" class="form-label">CourseName</label>
+    <input asp-for="CourseName" class="form-label">
+    </div>
+    <div>
+    <label asp-for="CourseCategory" class="form-label">CourseCategory</label>
+    <input asp-for="CourseCategory" class="form-label">
+    </div>
+    <div>
+    <label asp-for="CourseExplain" class="form-label">CourseExplain</label>
+    <input asp-for="CourseExplain" class="form-label">
+    </div>
+    <div>
+    <label asp-for="CourseInstructor" class="form-label">CourseInstructor</label>
+    <input asp-for="CourseInstructor" class="form-label">
+    </div>
+    <button type="submit">Kaydet</button>
+    
+</form>
+<a href="/CreateCourse/Index">Listele</a>

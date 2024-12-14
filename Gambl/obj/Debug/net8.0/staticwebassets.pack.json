@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\wwwroot\\img\\file.png",
+      "PackagePath": "staticwebassets\\img\\file.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Gambl.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Gambl.props",
+      "PackagePath": "build\\Gambl.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Gambl.props",
+      "PackagePath": "buildMultiTargeting\\Gambl.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Gambl.props",
+      "PackagePath": "buildTransitive\\Gambl.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

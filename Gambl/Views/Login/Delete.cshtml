@@ -1,0 +1,11 @@
+<div>Silme</div>
+@model UserInfo
+<p>
+    <b>@Model.UserFN @Model.UserLN </b> isimli öğrenciyi silmek istiyor musunuz?
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" name="id" value="@Model.UserId">
+    <button type="submit"> Evet</button>
+    <a asp-action="Index">Hayır</a>
+</form>
+</p> 

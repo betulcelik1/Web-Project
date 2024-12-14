@@ -1,0 +1,22 @@
+<div>LoginAdmission</div>
+@model UserInfo
+<form asp-controller="Login" asp-action="Admission" class="form-label">
+    <div>
+        <label asp-for="UserFN" class="form-label">UserFN</label>
+        <input asp-for="UserFN" class="form-label">
+    </div>
+    <div>
+        <label asp-for="UserLN" class="form-label">UserLN</label>
+        <input asp-for="UserLN" class="form-label">
+    </div>
+    <div>
+        <label asp-for="UserEmail" class="form-label">UserEmail</label>
+        <input asp-for="UserEmail" class="form-label">
+    </div>
+    <div>
+        <label asp-for="UserPhone" class="form-label">UserPhone</label>
+        <input asp-for="UserPhone" class="form-label">
+    </div>
+    <button type="submit">Create</button>
+</form>
+<a href="/Login/Index">User List</a>

@@ -1,0 +1,26 @@
+@model IEnumerable<InstructorInfo>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(m=>m.InstructorId)</th>
+                <th>@Html.DisplayNameFor(m=>m.InstructorFN)</th>
+                <th>@Html.DisplayNameFor(m=>m.InstructorLN)</th>
+               
+                
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var a in Model){
+            <tr>
+                <td>@Html.DisplayFor(modelItem=>a.InstructorId)</td>
+                <td>@Html.DisplayFor(modelItem=>a.InstructorFN)</td>
+                <td>@Html.DisplayFor(modelItem=>a.InstructorLN)</td>
+                <td><a asp-controller="Home" asp-action="Instructor" asp-route-id="@a.InstructorId" class="btn btn-sm btn-primary">View</a></td>
+            </tr>
+            }
+            
+        </tbody>
+    </table>
+    

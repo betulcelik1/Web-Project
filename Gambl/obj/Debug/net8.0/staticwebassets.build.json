@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "k1RhwOGyfFPmb0fT23mWqL+q0wBEkZNFcpjQRVYHjVk=",
+  "Source": "Gambl",
+  "BasePath": "_content/Gambl",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Gambl\\wwwroot",
+      "Source": "Gambl",
+      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\wwwroot\\",
+      "BasePath": "_content/Gambl",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\wwwroot\\img\\file.png",
+      "SourceId": "Gambl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\wwwroot\\",
+      "BasePath": "_content/Gambl",
+      "RelativePath": "img/file.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\file.png"
+    }
+  ]
+}

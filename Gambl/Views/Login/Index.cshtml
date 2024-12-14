@@ -1,0 +1,26 @@
+<div>LoginIndex</div>
+@model IEnumerable<UserInfo>
+    <table>
+        <thead>
+            <tr><th>@Html.DisplayNameFor(m=>m.UserId)</th>
+                <th>@Html.DisplayNameFor(m=>m.UserFN)</th>
+                <th>@Html.DisplayNameFor(m=>m.UserLN)</th>
+               
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var a in Model){
+            <tr>
+                <td>@Html.DisplayFor(modelItem=>a.UserId)</td>
+                <td>@Html.DisplayFor(modelItem=>a.UserFN)</td>
+                <td>@Html.DisplayFor(modelItem=>a.UserLN)</td>
+                <td>
+                    <a asp-controller="Login" asp-action="Edit" asp-route-id="@a.UserId" class="btn btn-sm btn-primary">Edit</a>
+                    <a asp-controller="Login" asp-action="Delete" asp-route-id="@a.UserId" class="btn btn-sm btn-primary">Delete</a>
+                </td>
+            </tr>
+            } 
+            
+        </tbody>
+    </table>
+    <a href="/Login/Admission">CreateUser</a>
