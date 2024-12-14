@@ -17,103 +17,103 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Gambl
 build_property.RootNamespace = Gambl
-build_property.ProjectDir = C:\Users\betul\OneDrive\Desktop\Gambl\Gambl\
+build_property.ProjectDir = C:\Users\Leen Husseini\OneDrive\Desktop\Web-Project\Gambl\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\betul\OneDrive\Desktop\Gambl\Gambl
+build_property.MSBuildProjectDirectory = C:\Users\Leen Husseini\OneDrive\Desktop\Web-Project\Gambl
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/CourseSignUp/Create.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/CourseSignUp/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlU2lnblVwXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/Course/CourseContent.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/Course/CourseContent.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXENvdXJzZUNvbnRlbnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/Course/Index.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/Course/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cnNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/CreateCourse/CreateCourse.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/CreateCourse/CreateCourse.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ291cnNlXENyZWF0ZUNvdXJzZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/CreateCourse/Delete.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/CreateCourse/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ291cnNlXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/CreateCourse/Edit.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/CreateCourse/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ291cnNlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/CreateCourse/Index.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/CreateCourse/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3JlYXRlQ291cnNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/Home/Index.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/Home/Instructor.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/Home/Instructor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnN0cnVjdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/Home/InstructorList.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/Home/InstructorList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbnN0cnVjdG9yTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/Home/MyAccount.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/Home/MyAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNeUFjY291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/Home/UserList.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/Home/UserList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVc2VyTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/Login/Admission.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/Login/Admission.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cQWRtaXNzaW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/Login/Delete.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/Login/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/Login/Edit.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/Login/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/Login/Index.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/Login/SignUp.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/Login/SignUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnblVwLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/Shared/_Layout.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/User/Index.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/User/InstructorInfo.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/User/InstructorInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbnN0cnVjdG9ySW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/User/MyAccount.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/User/MyAccount.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNeUFjY291bnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/_ViewImports.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/betul/OneDrive/Desktop/Gambl/Gambl/Views/_ViewStart.cshtml]
+[C:/Users/Leen Husseini/OneDrive/Desktop/Web-Project/Gambl/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
