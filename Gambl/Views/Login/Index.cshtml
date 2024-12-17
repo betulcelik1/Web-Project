@@ -1,26 +1,38 @@
-<div>LoginIndex</div>
+<div>Login Index</div>
 @model IEnumerable<UserInfo>
-    <table>
-        <thead>
-            <tr><th>@Html.DisplayNameFor(m=>m.UserId)</th>
-                <th>@Html.DisplayNameFor(m=>m.UserFN)</th>
-                <th>@Html.DisplayNameFor(m=>m.UserLN)</th>
-               
-            </tr>
-        </thead>
-        <tbody>
-            @foreach(var a in Model){
+
+<h2>User List</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(m => m.UserId)</th>
+            <th>@Html.DisplayNameFor(m => m.UserFN)</th>
+            <th>@Html.DisplayNameFor(m => m.UserLN)</th>
+            <th>@Html.DisplayNameFor(m => m.UserEmail)</th>
+            <th>@Html.DisplayNameFor(m => m.UserPhone)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
             <tr>
-                <td>@Html.DisplayFor(modelItem=>a.UserId)</td>
-                <td>@Html.DisplayFor(modelItem=>a.UserFN)</td>
-                <td>@Html.DisplayFor(modelItem=>a.UserLN)</td>
+                <td>@Html.DisplayFor(modelItem => user.UserId)</td>
+                <td>@Html.DisplayFor(modelItem => user.UserFN)</td>
+                <td>@Html.DisplayFor(modelItem => user.UserLN)</td>
+                <td>@Html.DisplayFor(modelItem => user.UserEmail)</td>
+                <td>@Html.DisplayFor(modelItem => user.UserPhone)</td>
                 <td>
-                    <a asp-controller="Login" asp-action="Edit" asp-route-id="@a.UserId" class="btn btn-sm btn-primary">Edit</a>
-                    <a asp-controller="Login" asp-action="Delete" asp-route-id="@a.UserId" class="btn btn-sm btn-primary">Delete</a>
+                    <a asp-controller="Login" asp-action="Edit" asp-route-id="@user.UserId" class="btn btn-sm btn-primary">Edit</a>
+                    <a asp-controller="Login" asp-action="Delete" asp-route-id="@user.UserId" class="btn btn-sm btn-danger">Delete</a>
                 </td>
             </tr>
-            } 
-            
-        </tbody>
-    </table>
-    <a href="/Login/Admission">CreateUser</a>
+        }
+    </tbody>
+</table>
+
+<a asp-controller="Login" asp-action="Admission" class="btn btn-success">Create New User</a>
+
+
+

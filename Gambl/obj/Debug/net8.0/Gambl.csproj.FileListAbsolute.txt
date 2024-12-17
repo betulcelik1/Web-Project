@@ -382,3 +382,4 @@ C:\Users\betul\OneDrive\Desktop\Gambl\Gambl\obj\Debug\net8.0\refint\Gambl.dll
 C:\Users\betul\OneDrive\Desktop\Gambl\Gambl\obj\Debug\net8.0\Gambl.pdb
 C:\Users\betul\OneDrive\Desktop\Gambl\Gambl\obj\Debug\net8.0\Gambl.genruntimeconfig.cache
 C:\Users\betul\OneDrive\Desktop\Gambl\Gambl\obj\Debug\net8.0\ref\Gambl.dll
+C:\Users\betul\OneDrive\Desktop\Gambl\Gambl\obj\Debug\net8.0\Gambl.sourcelink.json
