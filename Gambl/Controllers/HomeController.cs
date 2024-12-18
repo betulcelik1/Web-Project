@@ -36,11 +36,15 @@ namespace Gambl.Controllers
             if(id==null){
                 return NotFound();
             }
-            var instructor =await _dataContext.InstructorInfos.FindAsync(id);
+            var instructor=await _dataContext.InstructorInfos.Include(i=>i.Courses).FirstOrDefaultAsync(i=>i.InstructorId==id);
             if(instructor==null){
                 return NotFound();
             }
-            return View(instructor);
+            var viewModel=new InstructorCoursesViewModel{
+                Instructor=instructor,
+                Courses=await _dataContext.CourseInfos.Where(c=>c.InstructorId==id).ToListAsync()
+            };
+            return View(viewModel);
         }
         public IActionResult GetCourseImage(int id)
 {

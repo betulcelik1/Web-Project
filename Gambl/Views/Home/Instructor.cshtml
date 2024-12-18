@@ -1,6 +1,7 @@
-@model InstructorInfo
-
-@Model.InstructorFN @Model.InstructorLN 
+@model InstructorCoursesViewModel
+@if(Model.Instructor!=null){
+@Model.Instructor.InstructorFN 
+}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -155,5 +156,8 @@
             </div>
         </div>
     </div>
+    @foreach(var a in Model.Courses ??Enumerable.Empty<CourseInfo>()){
+        <li>@a.CourseName</li>
+    }
 </body>
 </html>

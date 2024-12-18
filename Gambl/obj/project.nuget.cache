@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QRnWi2Nl3Q/qAAYKpQSQnlh7NUTGnzsVcCyWHU0WXsyRDWEeRNYkBiQz8To0Pyb20Kv2C7nIn7tKqAW0T6hKog==",
+  "dgSpecHash": "VrxXRbN4XVk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mehmet kerem çay\\Web-Project\\Gambl\\Gambl.csproj",
+  "projectFilePath": "C:\\Users\\mehmet kerem çay\\WEB\\Web-Project\\Gambl\\Gambl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mehmet kerem çay\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\mehmet kerem çay\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
