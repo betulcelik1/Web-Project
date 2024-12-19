@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mehmet kerem çay\\Web-Project\\Gambl\\Gambl.csproj": {}
+    "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\Gambl.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mehmet kerem çay\\Web-Project\\Gambl\\Gambl.csproj": {
+    "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\Gambl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mehmet kerem çay\\Web-Project\\Gambl\\Gambl.csproj",
+        "projectUniqueName": "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\Gambl.csproj",
         "projectName": "Gambl",
-        "projectPath": "C:\\Users\\mehmet kerem çay\\Web-Project\\Gambl\\Gambl.csproj",
-        "packagesPath": "C:\\Users\\mehmet kerem çay\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mehmet kerem çay\\Web-Project\\Gambl\\obj\\",
+        "projectPath": "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\Gambl.csproj",
+        "packagesPath": "C:\\Users\\betul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\mehmet kerem çay\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\betul\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Gambl.Models;
 namespace Gambl.Controllers
 {
-    public class HomeController:Controller{
+     public class HomeController:Controller{
         private readonly DataContext _dataContext;
         public  HomeController (DataContext dataContext){
             _dataContext=dataContext;

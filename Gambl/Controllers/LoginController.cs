@@ -47,7 +47,6 @@ namespace Gambl.Controllers
             return View();
         }
 
-        // Giriş Kontrolü Yapar
         [HttpPost]
         public async Task<IActionResult> Admission(UserInfo model)
         {
@@ -57,17 +56,14 @@ namespace Gambl.Controllers
                 return View();
             }
 
-            // Veritabanında kullanıcıyı kontrol et
             var user = await _dataContext.UserInfos
                 .FirstOrDefaultAsync(u => u.UserEmail == model.UserEmail && u.Password == model.Password);
 
             if (user != null)
             {
-                // Kullanıcı giriş başarılı, yönlendirme yap
                 return RedirectToAction("Index", "Home"); // Ana sayfaya yönlendir
             }
 
-            // Giriş başarısızsa hata mesajı göster
             ViewBag.Error = "Invalid email or password. Please try again.";
             return View();
         }
@@ -107,7 +103,7 @@ namespace Gambl.Controllers
             return View(await _dataContext.UserInfos.ToListAsync());
         }
 
-        // Edit User
+        /*// Edit User
         [HttpGet]
         public async Task<IActionResult> Edit(int? id)
         {
@@ -167,6 +163,6 @@ namespace Gambl.Controllers
             }
 
             return RedirectToAction("Users");
-        }
+        }*/
     }
 }
