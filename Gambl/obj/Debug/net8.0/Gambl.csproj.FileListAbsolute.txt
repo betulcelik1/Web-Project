@@ -382,6 +382,7 @@ C:\Users\betul\OneDrive\Desktop\Gambl\Gambl\obj\Debug\net8.0\refint\Gambl.dll
 C:\Users\betul\OneDrive\Desktop\Gambl\Gambl\obj\Debug\net8.0\Gambl.pdb
 C:\Users\betul\OneDrive\Desktop\Gambl\Gambl\obj\Debug\net8.0\Gambl.genruntimeconfig.cache
 C:\Users\betul\OneDrive\Desktop\Gambl\Gambl\obj\Debug\net8.0\ref\Gambl.dll
+<<<<<<< HEAD
 c:\Users\Leen Husseini\OneDrive\Desktop\Web-Project\Gambl\bin\Debug\net8.0\appsettings.Development.json
 c:\Users\Leen Husseini\OneDrive\Desktop\Web-Project\Gambl\bin\Debug\net8.0\appsettings.json
 c:\Users\Leen Husseini\OneDrive\Desktop\Web-Project\Gambl\bin\Debug\net8.0\Gambl.staticwebassets.runtime.json
@@ -575,3 +576,6 @@ c:\Users\Leen Husseini\OneDrive\Desktop\Web-Project\Gambl\obj\Debug\net8.0\refin
 c:\Users\Leen Husseini\OneDrive\Desktop\Web-Project\Gambl\obj\Debug\net8.0\Gambl.pdb
 c:\Users\Leen Husseini\OneDrive\Desktop\Web-Project\Gambl\obj\Debug\net8.0\Gambl.genruntimeconfig.cache
 c:\Users\Leen Husseini\OneDrive\Desktop\Web-Project\Gambl\obj\Debug\net8.0\ref\Gambl.dll
+=======
+C:\Users\betul\OneDrive\Desktop\Gambl\Gambl\obj\Debug\net8.0\Gambl.sourcelink.json
+>>>>>>> 4b5c0f5f0ef1c18a480d62944f5e9f7ea99fb4a1
