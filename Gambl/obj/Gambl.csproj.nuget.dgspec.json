@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\Gambl.csproj": {}
+    "c:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\Gambl.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\Gambl.csproj": {
+    "c:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\Gambl.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\Gambl.csproj",
+        "projectUniqueName": "c:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\Gambl.csproj",
         "projectName": "Gambl",
-        "projectPath": "C:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\Gambl.csproj",
+        "projectPath": "c:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\Gambl.csproj",
         "packagesPath": "C:\\Users\\Leen Husseini\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\obj\\",
+        "outputPath": "c:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

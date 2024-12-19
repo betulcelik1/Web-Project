@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QIWrUcy05kQ=",
+  "dgSpecHash": "YGPuRcW/7Q8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\Gambl.csproj",
+  "projectFilePath": "c:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\Gambl.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leen Husseini\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Leen Husseini\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

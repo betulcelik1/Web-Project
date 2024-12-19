@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k1RhwOGyfFPmb0fT23mWqL+q0wBEkZNFcpjQRVYHjVk=",
+  "Hash": "VjxdIoUT3U9opJoxBak6yD0EQQRTV8U0GEPQBfIKeQs=",
   "Source": "Gambl",
   "BasePath": "_content/Gambl",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Gambl\\wwwroot",
       "Source": "Gambl",
-      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\wwwroot\\",
       "BasePath": "_content/Gambl",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\wwwroot\\img\\file.png",
+      "Identity": "c:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\wwwroot\\img\\file.png",
       "SourceId": "Gambl",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Leen Husseini\\OneDrive\\Desktop\\Web-Project\\Gambl\\wwwroot\\",
       "BasePath": "_content/Gambl",
       "RelativePath": "img/file.png",
       "AssetKind": "All",
