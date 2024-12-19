@@ -19,7 +19,7 @@ namespace Gambl.Models
         [ForeignKey("InstructorId")]
         public InstructorInfo? Instructor { get; set; }
         
-
+        public List<LessonInfo> Lessons = new List<LessonInfo>();
     }
 
      
