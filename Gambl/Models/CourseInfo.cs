@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Gambl.Models
 {
@@ -12,24 +13,16 @@ namespace Gambl.Models
         public string? CourseInstructor { get; set; }
         public int CoursePay { get; set; }
         public byte[]? CourseImage { get; set; }
-        public List<LessonInfo> Lessons = new List<LessonInfo>();
+        public int? InstructorId { get; set; }
+        
+        
+        [ForeignKey("InstructorId")]
+        public InstructorInfo? Instructor { get; set; }
+        
 
     }
 
-      public class LessonInfo
-    {
-        [Key]
-        public int LessonId { get; set;}
-        public string? LessonName { get; set; }
-        public List<ContentInfo> content { get; set; } = new List<ContentInfo>();
-    }
-
-    public class ContentInfo
-    {
-        [Key]
-        public int ContentId { get; set; }
-        public string? ContentName { get; set; }
-    }
+     
 
     
 }

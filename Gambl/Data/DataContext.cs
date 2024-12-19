@@ -13,6 +13,9 @@ namespace Gambl.Data
         public DbSet<UserInfo> UserInfos=>Set<UserInfo>();
         public DbSet<CourseInfo> CourseInfos=>Set<CourseInfo>();
         public DbSet<InstructorInfo> InstructorInfos=>Set<InstructorInfo>();
+        public DbSet<LessonInfo> LessonInfos=>Set<LessonInfo>();
+        public DbSet<ContentInfo> ContentInfos=>Set<ContentInfo>();
+        public DbSet<InstructorCoursesViewModel> InstructorCourses=>Set<InstructorCoursesViewModel>();
     }
 
     
