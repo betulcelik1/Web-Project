@@ -1,8 +1,12 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\wwwroot\\img\\file.png",
+      "Id": "C:\\Users\\mehmet kerem çay\\WEB\\Web-Project\\Gambl\\wwwroot\\img\\file.png",
       "PackagePath": "staticwebassets\\img\\file.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Gambl.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Gambl.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -5042,11 +5042,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\Gambl.csproj",
       "projectName": "Gambl",
       "projectPath": "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\Gambl.csproj",
       "packagesPath": "C:\\Users\\betul\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\betul\\OneDrive\\Desktop\\Gambl\\Gambl\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\mehmet kerem çay\\WEB\\Web-Project\\Gambl\\Gambl.csproj",
+      "projectName": "Gambl",
+      "projectPath": "C:\\Users\\mehmet kerem çay\\WEB\\Web-Project\\Gambl\\Gambl.csproj",
+      "packagesPath": "C:\\Users\\mehmet kerem çay\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mehmet kerem çay\\WEB\\Web-Project\\Gambl\\obj\\",
+>>>>>>> 14fb33eddf7b9b42527b9eedd00299e75bd0c166
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\betul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5073,8 +5081,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -5118,7 +5127,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200-preview.0.24575.35/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

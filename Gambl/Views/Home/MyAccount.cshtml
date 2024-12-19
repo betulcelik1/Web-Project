@@ -118,7 +118,8 @@ button:hover {
       <div class="course-card">
         <img src="@Url.Action("GetCourseImage", new { id = a.CourseId })" alt="Course Image" />
         <h2>@Html.DisplayFor(modelItem=>a.CourseName)</h2>
-        <p>@Html.DisplayFor(modelItem=>a.CourseInstructor)</p>
+        
+        <p><a asp-controller="Home" asp-action="Instructor" asp-route-id="@a.InstructorId">@Html.DisplayFor(modelItem=>a.CourseInstructor)</a></p>
         <div class="progress-bar">
           <div class="progress" style="width: 18%;"></div>
         </div>

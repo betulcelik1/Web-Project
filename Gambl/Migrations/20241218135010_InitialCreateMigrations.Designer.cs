@@ -10,14 +10,33 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Gambl.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20241212151101_InitialCreate2")]
-    partial class InitialCreate2
+    [Migration("20241218135010_InitialCreateMigrations")]
+    partial class InitialCreateMigrations
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.0");
+
+            modelBuilder.Entity("Gambl.Models.ContentInfo", b =>
+                {
+                    b.Property<int>("ContentId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ContentName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int?>("LessonInfoLessonId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("ContentId");
+
+                    b.HasIndex("LessonInfoLessonId");
+
+                    b.ToTable("ContentInfos");
+                });
 
             modelBuilder.Entity("Gambl.Models.CourseBuy", b =>
                 {
@@ -48,13 +67,24 @@ namespace Gambl.Migrations
                     b.Property<string>("CourseExplain")
                         .HasColumnType("TEXT");
 
+                    b.Property<byte[]>("CourseImage")
+                        .HasColumnType("BLOB");
+
                     b.Property<string>("CourseInstructor")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("CourseName")
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("CoursePay")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("InstructorId")
+                        .HasColumnType("INTEGER");
+
                     b.HasKey("CourseId");
+
+                    b.HasIndex("InstructorId");
 
                     b.ToTable("CourseInfos");
                 });
@@ -82,27 +112,73 @@ namespace Gambl.Migrations
                     b.ToTable("InstructorInfos");
                 });
 
+            modelBuilder.Entity("Gambl.Models.LessonInfo", b =>
+                {
+                    b.Property<int>("LessonId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("LessonName")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("LessonId");
+
+                    b.ToTable("LessonInfos");
+                });
+
             modelBuilder.Entity("Gambl.Models.UserInfo", b =>
                 {
                     b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("UserEmail")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UserFN")
+                        .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UserLN")
+                        .IsRequired()
+                        .HasMaxLength(50)
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UserPhone")
+                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.HasKey("UserId");
 
                     b.ToTable("UserInfos");
+                });
+
+            modelBuilder.Entity("Gambl.Models.ContentInfo", b =>
+                {
+                    b.HasOne("Gambl.Models.LessonInfo", null)
+                        .WithMany("content")
+                        .HasForeignKey("LessonInfoLessonId");
+                });
+
+            modelBuilder.Entity("Gambl.Models.CourseInfo", b =>
+                {
+                    b.HasOne("Gambl.Models.InstructorInfo", "Instructor")
+                        .WithMany()
+                        .HasForeignKey("InstructorId");
+
+                    b.Navigation("Instructor");
+                });
+
+            modelBuilder.Entity("Gambl.Models.LessonInfo", b =>
+                {
+                    b.Navigation("content");
                 });
 #pragma warning restore 612, 618
         }
