@@ -9,6 +9,9 @@ namespace Gambl.Models
         public string? InstructorLN { get; set; }
         public string? InstructorEmail { get; set; }
         public string? InstructorPhone { get; set; }
+        public byte[]? InstructorImage { get; set; }
+        public string? InstructorExplain { get; set; }
+
         public ICollection<CourseInfo>? Courses { get; set; }
 
 

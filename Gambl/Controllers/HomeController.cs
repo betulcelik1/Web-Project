@@ -47,15 +47,24 @@ namespace Gambl.Controllers
             return View(viewModel);
         }
         public IActionResult GetCourseImage(int id)
-{
-    var course = _dataContext.CourseInfos.Find(id);
-    if (course == null || course.CourseImage == null)
-    {
-        // Resim bulunamadığında bir placeholder göstermek
-        return File("~/images/default-placeholder.jpg", "image/jpeg");
-    }
-    return File(course.CourseImage, "image/jpeg");
-}
+        {
+            var course = _dataContext.CourseInfos.Find(id);
+             if (course == null || course.CourseImage == null)
+            {
+            // Resim bulunamadığında bir placeholder göstermek
+            return File("~/images/default-placeholder.jpg", "image/jpeg");
+            }
+            return File(course.CourseImage, "image/jpeg");
+        }
+        public IActionResult GetInstructorImage(int id){
+            var instructor=_dataContext.InstructorInfos.Find(id);
+            if(instructor==null||instructor.InstructorImage==null){
+                return File("~/images/default-placeholder.jpg", "image/jpeg");
+
+            }
+            return File(instructor.InstructorImage,"image/jpeg");
+        }
+
 
 
     }

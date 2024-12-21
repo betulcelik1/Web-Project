@@ -114,7 +114,7 @@
     <div class="container">
         
         <div class="box box-1">
-            <img src="https://via.placeholder.com/100" alt="Resim" class="ins-img"> 
+            <img src="@Url.Action("GetInstructorImage", new { id = @Model.Instructor.InstructorId })" alt="Instructor Image" /> 
             <div class="info">
                 <div class="name" style="font-size: 1.5em; font-weight: bold;">John Doe</div> 
                 <div class="profession" style="font-size: 1.2em; color: #555;">Software Engineer</div>

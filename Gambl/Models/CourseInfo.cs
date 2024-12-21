@@ -14,6 +14,7 @@ namespace Gambl.Models
         public int CoursePay { get; set; }
         public byte[]? CourseImage { get; set; }
         public int? InstructorId { get; set; }
+        public string? CourseState {get;set;}
         
         
         [ForeignKey("InstructorId")]
