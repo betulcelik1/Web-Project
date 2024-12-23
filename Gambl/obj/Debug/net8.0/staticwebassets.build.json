@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Dd2gumdBo4lW9dwO2L6PSbfk83upr0nNJ4XtQHLSrbs=",
+  "Hash": "BeS+u0lxQxIAvnXiXmfC9kw5kSojxN2FSqSFCJCKweY=",
   "Source": "Gambl",
   "BasePath": "_content/Gambl",
   "Mode": "Default",
@@ -10,116 +10,220 @@
     {
       "Name": "Gambl\\wwwroot",
       "Source": "Gambl",
-      "ContentRoot": "C:\\Users\\mehmet kerem çay\\WEB\\Web-Project\\Gambl\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\",
       "BasePath": "_content/Gambl",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\mehmet kerem çay\\WEB\\Web-Project\\Gambl\\wwwroot\\img\\file.png",
+      "Identity": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\css\\course.css",
       "SourceId": "Gambl",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mehmet kerem çay\\WEB\\Web-Project\\Gambl\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\",
       "BasePath": "_content/Gambl",
-      "RelativePath": "img/file#[.{fingerprint}]?.png",
+      "RelativePath": "css/course.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nmt3dzvxpd",
-      "Integrity": "QX41ywxoJIHYmrD1x+/fF0HSaOT6TPGU+lXzib2EQKI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\course.css"
+    },
+    {
+      "Identity": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\css\\home.css",
+      "SourceId": "Gambl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\",
+      "BasePath": "_content/Gambl",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
+      "Identity": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\css\\Instructor.css",
+      "SourceId": "Gambl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\",
+      "BasePath": "_content/Gambl",
+      "RelativePath": "css/Instructor.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Instructor.css"
+    },
+    {
+      "Identity": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\css\\layout.css",
+      "SourceId": "Gambl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\",
+      "BasePath": "_content/Gambl",
+      "RelativePath": "css/layout.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\layout.css"
+    },
+    {
+      "Identity": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\css\\MyAccount.css",
+      "SourceId": "Gambl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\",
+      "BasePath": "_content/Gambl",
+      "RelativePath": "css/MyAccount.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\MyAccount.css"
+    },
+    {
+      "Identity": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\img\\bg.jpg",
+      "SourceId": "Gambl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\",
+      "BasePath": "_content/Gambl",
+      "RelativePath": "img/bg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\bg.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\img\\file.png",
+      "SourceId": "Gambl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\",
+      "BasePath": "_content/Gambl",
+      "RelativePath": "img/file.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\file.png"
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "img/file.nmt3dzvxpd.png",
-      "AssetFile": "C:\\Users\\mehmet kerem çay\\WEB\\Web-Project\\Gambl\\wwwroot\\img\\file.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "348456"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QX41ywxoJIHYmrD1x+/fF0HSaOT6TPGU+lXzib2EQKI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 13:13:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "nmt3dzvxpd"
-        },
-        {
-          "Name": "label",
-          "Value": "img/file.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QX41ywxoJIHYmrD1x+/fF0HSaOT6TPGU+lXzib2EQKI="
-        }
-      ]
     },
     {
-      "Route": "img/file.png",
-      "AssetFile": "C:\\Users\\mehmet kerem çay\\WEB\\Web-Project\\Gambl\\wwwroot\\img\\file.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "348456"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"QX41ywxoJIHYmrD1x+/fF0HSaOT6TPGU+lXzib2EQKI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 18 Dec 2024 13:13:12 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QX41ywxoJIHYmrD1x+/fF0HSaOT6TPGU+lXzib2EQKI="
-        }
-      ]
+      "Identity": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\img\\slide1.jpg",
+      "SourceId": "Gambl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\",
+      "BasePath": "_content/Gambl",
+      "RelativePath": "img/slide1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\slide1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\img\\slide2.jpg",
+      "SourceId": "Gambl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\",
+      "BasePath": "_content/Gambl",
+      "RelativePath": "img/slide2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\slide2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\js\\couse.js",
+      "SourceId": "Gambl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\",
+      "BasePath": "_content/Gambl",
+      "RelativePath": "js/couse.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\couse.js"
+    },
+    {
+      "Identity": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\js\\home.js",
+      "SourceId": "Gambl",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\",
+      "BasePath": "_content/Gambl",
+      "RelativePath": "js/home.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\home.js"
     }
   ]
 }

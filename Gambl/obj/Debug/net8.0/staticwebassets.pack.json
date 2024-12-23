@@ -1,12 +1,48 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\mehmet kerem çay\\WEB\\Web-Project\\Gambl\\wwwroot\\img\\file.png",
+      "Id": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\css\\Instructor.css",
+      "PackagePath": "staticwebassets\\css\\Instructor.css"
+    },
+    {
+      "Id": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\css\\MyAccount.css",
+      "PackagePath": "staticwebassets\\css\\MyAccount.css"
+    },
+    {
+      "Id": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\css\\course.css",
+      "PackagePath": "staticwebassets\\css\\course.css"
+    },
+    {
+      "Id": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\css\\layout.css",
+      "PackagePath": "staticwebassets\\css\\layout.css"
+    },
+    {
+      "Id": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\img\\bg.jpg",
+      "PackagePath": "staticwebassets\\img\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\img\\file.png",
       "PackagePath": "staticwebassets\\img\\file.png"
     },
     {
-      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Gambl.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
-      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+      "Id": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\img\\slide1.jpg",
+      "PackagePath": "staticwebassets\\img\\slide1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\img\\slide2.jpg",
+      "PackagePath": "staticwebassets\\img\\slide2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\js\\couse.js",
+      "PackagePath": "staticwebassets\\js\\couse.js"
+    },
+    {
+      "Id": "C:\\Users\\betul\\OneDrive\\Desktop\\Web\\Gambl\\Gambl\\wwwroot\\js\\home.js",
+      "PackagePath": "staticwebassets\\js\\home.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Gambl.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,3 +1,80 @@
- <a asp-controller="Home" asp-action="UserList">UserList</a>
- <a asp-controller="Home" asp-action="InstructorList">InstructorList</a>
- <h1>kjahsofojaoıgjo</h1>
+@model IEnumerable<CourseInfo>
+    <link rel="stylesheet" href="~/css/home.css"> 
+    
+    <br><br><br>
+    <div class="slideshow-container">
+        <div class="slide active">
+            <div class="text">
+                <h1 style="font-size: 50px;">Learn with Gambl</h1>
+                <br>
+                <p>Make learning a daily habit, even if it's just for 5-10 minutes each day.</p> 
+                <p>Consistent, focused effort, no matter how small, can lead to remarkable progress over time.</p> 
+                <p>Your peak potential is within reach—embrace the journey and keep learning!</p>
+            </div>
+            <img src="~/img/slide1.jpg" alt="Slide 1">
+        </div>
+        <div class="slide">
+            <div class="text">
+                <h1 style="font-size: 50px;">Code your future</h1>
+                <br>
+                <p>Take charge of your career and shape your future with confidence.</p>
+                <p>Begin your journey now and take the first step toward building a successful, fulfilling career in web development.</p>
+                <p>Whether you're just starting out or looking to enhance your expertise, investing in yourself today will open doors to endless opportunities tomorrow.</p>
+            </div>
+            <img src="~/img/slide2.jpg" alt="Slide 2">
+        </div>
+        <div class="controls">
+            <button id="prev-slide" class="control-button"></button>
+            <button id="next-slide" class="control-button"></button>
+        </div>
+    </div>
+    <br><br>
+    <h1 style="margin-left: 10%; font-family: 'Times New Roman', Times, serif">Courses</h1>
+
+    <div class="grid-slideshow-container">
+        <div class="grid-wrapper">
+            <div class="grid-slide">
+                @{
+                    foreach (var a in Model)
+                    {
+                        if (a.CourseId <= 5)
+                        {
+                            <div class="grid-item">
+                                <img src="@Url.Action("GetCourseImage", new {id = a.CourseId})" alt="Course Image">
+                                <a asp-controller="Course" asp-action="CourseContent" asp-route-id="@a.CourseId"><h3>@Html.DisplayFor(modelItem => a.CourseName)</h3></a>
+                            </div>
+                        }
+                        else
+                            break;
+                    }
+                }
+
+            </div>
+            <div class="grid-slide">
+                @{
+                    foreach (var a in Model)
+                    {
+                        if (a.CourseId <= 5)
+                            continue;
+                        else if (a.CourseId > 5 && a.CourseId <= 10)
+                        {
+                            <div class="grid-item">
+                                <img src="@Url.Action("GetCourseImage", new {id = a.CourseId})" alt="Course Image">
+                                <a asp-controller="Course" asp-action="CourseContent" asp-route-id="@a.CourseId"><h3>@Html.DisplayFor(modelItem => a.CourseName)</h3></a>
+                            </div>
+                        }
+                        else
+                            break;
+                    }
+                }
+            </div>
+        </div>
+        <div class="grid-controls">
+            <button id="prev-grid-slide" class="control-button" disabled>❮</button>
+            <button id="next-grid-slide" class="control-button">❯</button>
+        </div>
+    </div>
+    <script src="~/js/home.js"></script>
+    
+
+  

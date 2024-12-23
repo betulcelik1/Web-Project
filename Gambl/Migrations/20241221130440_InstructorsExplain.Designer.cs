@@ -2,6 +2,7 @@
 using Gambl.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -9,9 +10,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Gambl.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20241221130440_InstructorsExplain")]
+    partial class InstructorsExplain
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.0");
@@ -25,7 +28,7 @@ namespace Gambl.Migrations
                     b.Property<string>("ContentName")
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("LessonInfoLessonId")
+                    b.Property<int?>("LessonInfoLessonId")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("ContentId");
@@ -72,6 +75,9 @@ namespace Gambl.Migrations
 
                     b.Property<string>("CourseName")
                         .HasColumnType("TEXT");
+
+                    b.Property<int>("CoursePay")
+                        .HasColumnType("INTEGER");
 
                     b.Property<string>("CourseState")
                         .HasColumnType("TEXT");
@@ -142,15 +148,10 @@ namespace Gambl.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("CourseInfoCourseId")
-                        .HasColumnType("INTEGER");
-
                     b.Property<string>("LessonName")
                         .HasColumnType("TEXT");
 
                     b.HasKey("LessonId");
-
-                    b.HasIndex("CourseInfoCourseId");
 
                     b.ToTable("LessonInfos");
                 });
@@ -193,9 +194,7 @@ namespace Gambl.Migrations
                 {
                     b.HasOne("Gambl.Models.LessonInfo", null)
                         .WithMany("content")
-                        .HasForeignKey("LessonInfoLessonId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("LessonInfoLessonId");
                 });
 
             modelBuilder.Entity("Gambl.Models.CourseInfo", b =>
@@ -218,20 +217,6 @@ namespace Gambl.Migrations
                         .HasForeignKey("InstructorId");
 
                     b.Navigation("Instructor");
-                });
-
-            modelBuilder.Entity("Gambl.Models.LessonInfo", b =>
-                {
-                    b.HasOne("Gambl.Models.CourseInfo", null)
-                        .WithMany("Lessons")
-                        .HasForeignKey("CourseInfoCourseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("Gambl.Models.CourseInfo", b =>
-                {
-                    b.Navigation("Lessons");
                 });
 
             modelBuilder.Entity("Gambl.Models.InstructorCoursesViewModel", b =>

@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+.collapsible {
+    cursor: pointer;
+    padding: 10px ;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 1.2em;
+    width: 100%;
+    background-color: #D6E4F0;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+}
+.collapsible:after {
+    content: '\002B';
+    font-size: 1.2em;
+    float: right;
+}
+.collapsible.active:after {
+    content: '\00D7';
+}
+ul.list
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+ul.list li
+{
+    position: relative;
+    padding-left: 25px;
+}
+ul.list li::before
+{
+    content: "\F2C8";
+    font-family: "bootstrap-icons";
+    position: absolute;
+    left: 0;
+    top: 0;
+}            
+
+.dropdown-content {
+    padding: 0 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    width: 100%;
+  
+} 
+
+.content-container, .curriculum, .instructor { 
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 3% 5%;
+} 
+.content-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-container { 
+    width: 70%;
+} 
+h2 {
+    font-size: 1.8em;
+    color: #2c3e50; 
+    margin-bottom: 20px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+    line-height: 1.4;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+h5 {
+    font-size: 1.4em; 
+    color: #7f8c8d;
+    margin-bottom: 15px;
+    font-weight: normal; 
+    line-height: 1.6; 
+    font-style: italic;
+}
+
+
+.image-container { 
+    width: 30%;
+    display: flex;
+} 
+
+
+.image-container img { 
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+
+
+

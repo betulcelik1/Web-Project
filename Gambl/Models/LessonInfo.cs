@@ -6,6 +6,7 @@ namespace Gambl.Models
         [Key]
         public int LessonId { get; set; }
         public string? LessonName { get; set; }
+        public int CourseInfoCourseId {get; set;}
         public List<ContentInfo> content { get; set; }=new List<ContentInfo>();
     }
 }

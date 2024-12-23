@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+  }
+  
+  .slideshow-container {
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+  }
+  
+  .slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .slide.active {
+    display: flex;
+  }
+  
+  .slide .text {
+    width: 50%;
+  }
+  
+  .slide img {
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  .controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  
+  .control-button {
+    color: #000000;
+    background-color: #33333300;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .control-button:disabled {
+    cursor: not-allowed;
+  }
+  
+  .grid-slideshow-container {
+    position: relative;
+    width: 80%;
+    margin: 40px auto;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .grid-wrapper {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 200%;
+  }
+  
+  .grid-slide {
+    display: flex;
+    gap: 15px;
+    width: 50%;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  
+  .grid-item {
+    flex: 1;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grid-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    border-radius: 6px;
+  }
+  
+  .grid-item h3 {
+    margin: 10px 0 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .grid-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  .grid-item a {
+    text-decoration: none;
+  }
+  .grid-item h3:hover{
+    color:#007bff;
+  } 

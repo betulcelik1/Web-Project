@@ -3,133 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Header Example</title>
-  <style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-
-.site-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #163172;
-  color: white;
-  padding: 10px 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-
-.logo-section {
-  flex: 1;
-  display: flex;
-  align-items: center;
-}
-
-.logo {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%; 
-  border: 2px solid white; 
-  border: none;
-}
-
-
-.site-name {
-  flex: 2;
-  text-align: center;
-  font-size: 1.8em;
-  font-weight: bold;
-  color: white;
-}
-
-
-.link-section {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 10px;
-}
-
-.link {
-  color: white;
-  text-decoration: none;
-  font-size: 1em;
-  transition: color 0.3s ease;
-}
-
-.link:hover {
-  color: #007bff; 
-}
-
-.divider {
-  color: white;
-  font-size: 1.2em;
-}
-
-.content {
-  flex: 1; 
-  padding: 20px;
-}
-
-
-.site-footer {
-  background-color: #163172;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-  width: 100%;
-}
-
-
-.footer-content {
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
-  gap: 20px; 
-}
-
-
-.footer-section {
-  flex: 1; 
-  text-align: center;
-}
-
-
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 15px; 
-}
-
-.social-link {
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.social-link:hover {
-  color: #1E56A0; 
-}
-
-
-.footer-link {
-  color: white;
-  text-decoration: none;
-  margin: 0 10px;
-  transition: color 0.3s ease;
-}
-
-.footer-link:hover {
-  color: #163172; 
-}
-</style>
+  <title>GAMBL</title>
+ <link rel="stylesheet" href="~/css/layout.css">
 </head>
 <body>
   <header class="site-header">
@@ -142,15 +17,25 @@ body {
 
     
     <div class="site-name">
-      Gambl
+      GAMBL
     </div>
 
     
     <div class="link-section">
-      <a asp-controller="Login" asp-action="Admission" class="link">Log in</a>
-      <span class="divider">|</span>
-      <a asp-controller="Login" asp-action="SignUp" class="link">Sign Up</a>
-    </div>
+    @if (User?.Identity?.IsAuthenticated==true)
+    {
+      <a asp-controller="Home" asp-action="MyAccount" class="link">My Learning</a>
+        <a asp-controller="Login" asp-action="Logout" class="link">Logout</a>
+        
+        
+    }
+    else
+    {
+        <a asp-controller="Login" asp-action="Admission" class="link">Log in</a>
+        <span class="divider">|</span>
+        <a asp-controller="Login" asp-action="SignUp" class="link">Sign Up</a>
+    }
+</div>
     
   </header>
   <div class="content">
@@ -175,7 +60,7 @@ body {
   </footer>
   @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    
   }
-
 </body>
 </html>

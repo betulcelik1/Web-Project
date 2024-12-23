@@ -1,16 +1,136 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Gambl/css/course.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\course.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UCVIKt8RN86VG4o11BTxxPVdy\u002BVY0tS/hU\u002BPEZtlN3U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1990"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022UCVIKt8RN86VG4o11BTxxPVdy\u002BVY0tS/hU\u002BPEZtlN3U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/css/course.kjvgveitsh.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\course.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kjvgveitsh"},{"Name":"integrity","Value":"sha256-UCVIKt8RN86VG4o11BTxxPVdy\u002BVY0tS/hU\u002BPEZtlN3U="},{"Name":"label","Value":"_content/Gambl/css/course.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1990"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022UCVIKt8RN86VG4o11BTxxPVdy\u002BVY0tS/hU\u002BPEZtlN3U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/css/home.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\home.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Dr/8bUomPpBWttjoVVVSCAgYNJCSZd3XhbsqoEEatp0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2197"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Dr/8bUomPpBWttjoVVVSCAgYNJCSZd3XhbsqoEEatp0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/css/home.y7z3aw2kub.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\home.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y7z3aw2kub"},{"Name":"integrity","Value":"sha256-Dr/8bUomPpBWttjoVVVSCAgYNJCSZd3XhbsqoEEatp0="},{"Name":"label","Value":"_content/Gambl/css/home.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2197"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Dr/8bUomPpBWttjoVVVSCAgYNJCSZd3XhbsqoEEatp0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/css/Instructor.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Instructor.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/SGgu9wroSWQQ2X3NlRvHBjSpPP6d2FdsOoEVwueFuw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2504"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/SGgu9wroSWQQ2X3NlRvHBjSpPP6d2FdsOoEVwueFuw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/css/Instructor.njkwyn1yp0.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\Instructor.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"njkwyn1yp0"},{"Name":"integrity","Value":"sha256-/SGgu9wroSWQQ2X3NlRvHBjSpPP6d2FdsOoEVwueFuw="},{"Name":"label","Value":"_content/Gambl/css/Instructor.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2504"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/SGgu9wroSWQQ2X3NlRvHBjSpPP6d2FdsOoEVwueFuw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/css/layout.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\layout.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d4PRhDxLqnk323r0HBsUvWR9yf3FR4nsjNzWSgfIpTg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1965"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022d4PRhDxLqnk323r0HBsUvWR9yf3FR4nsjNzWSgfIpTg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/css/layout.jt9blau40a.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\layout.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jt9blau40a"},{"Name":"integrity","Value":"sha256-d4PRhDxLqnk323r0HBsUvWR9yf3FR4nsjNzWSgfIpTg="},{"Name":"label","Value":"_content/Gambl/css/layout.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1965"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022d4PRhDxLqnk323r0HBsUvWR9yf3FR4nsjNzWSgfIpTg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/css/MyAccount.2cmydraju8.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\MyAccount.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2cmydraju8"},{"Name":"integrity","Value":"sha256-kn7YwdFj5rwdWXMSwwTt1bl09rKEnBYzOVSQBHdHecM="},{"Name":"label","Value":"_content/Gambl/css/MyAccount.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1317"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kn7YwdFj5rwdWXMSwwTt1bl09rKEnBYzOVSQBHdHecM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/css/MyAccount.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\MyAccount.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kn7YwdFj5rwdWXMSwwTt1bl09rKEnBYzOVSQBHdHecM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1317"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kn7YwdFj5rwdWXMSwwTt1bl09rKEnBYzOVSQBHdHecM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/img/bg.jo7761m744.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\bg.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jo7761m744"},{"Name":"integrity","Value":"sha256-o6w8orq8vQAJoddEEGUMOlVuq32IqMkky0sfzQQOs2o="},{"Name":"label","Value":"_content/Gambl/img/bg.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"34036"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022o6w8orq8vQAJoddEEGUMOlVuq32IqMkky0sfzQQOs2o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/img/bg.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\bg.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-o6w8orq8vQAJoddEEGUMOlVuq32IqMkky0sfzQQOs2o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"34036"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022o6w8orq8vQAJoddEEGUMOlVuq32IqMkky0sfzQQOs2o=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Gambl/img/file.nmt3dzvxpd.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\file.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nmt3dzvxpd"},{"Name":"integrity","Value":"sha256-QX41ywxoJIHYmrD1x\u002B/fF0HSaOT6TPGU\u002BlXzib2EQKI="},{"Name":"label","Value":"_content/Gambl/img/file.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"348456"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QX41ywxoJIHYmrD1x\u002B/fF0HSaOT6TPGU\u002BlXzib2EQKI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Dec 2024 13:13:12 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"348456"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QX41ywxoJIHYmrD1x\u002B/fF0HSaOT6TPGU\u002BlXzib2EQKI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Gambl/img/file.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\file.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QX41ywxoJIHYmrD1x\u002B/fF0HSaOT6TPGU\u002BlXzib2EQKI="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"348456"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QX41ywxoJIHYmrD1x\u002B/fF0HSaOT6TPGU\u002BlXzib2EQKI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 18 Dec 2024 13:13:12 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"348456"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022QX41ywxoJIHYmrD1x\u002B/fF0HSaOT6TPGU\u002BlXzib2EQKI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/img/slide1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\slide1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kEWhnHg9bBn2zviWukwhn/nkO3HMZhY1PYZb2793WXY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"32416"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kEWhnHg9bBn2zviWukwhn/nkO3HMZhY1PYZb2793WXY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/img/slide1.oeu63uwjlu.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\slide1.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oeu63uwjlu"},{"Name":"integrity","Value":"sha256-kEWhnHg9bBn2zviWukwhn/nkO3HMZhY1PYZb2793WXY="},{"Name":"label","Value":"_content/Gambl/img/slide1.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"32416"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022kEWhnHg9bBn2zviWukwhn/nkO3HMZhY1PYZb2793WXY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/img/slide2.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\slide2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pzau5b9zQ4Y7Hrui2ioT1vSilwT/ptHT\u002B3TKIf7NGo8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37800"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pzau5b9zQ4Y7Hrui2ioT1vSilwT/ptHT\u002B3TKIf7NGo8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/img/slide2.nkkq0fzyo4.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\slide2.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nkkq0fzyo4"},{"Name":"integrity","Value":"sha256-pzau5b9zQ4Y7Hrui2ioT1vSilwT/ptHT\u002B3TKIf7NGo8="},{"Name":"label","Value":"_content/Gambl/img/slide2.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37800"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022pzau5b9zQ4Y7Hrui2ioT1vSilwT/ptHT\u002B3TKIf7NGo8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/js/couse.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\couse.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GCPQDJUVieXsAxjEztAEMKS6KeAPXazs/ezMUAXOMdM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"550"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022GCPQDJUVieXsAxjEztAEMKS6KeAPXazs/ezMUAXOMdM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/js/couse.osa1ouiqbz.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\couse.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"osa1ouiqbz"},{"Name":"integrity","Value":"sha256-GCPQDJUVieXsAxjEztAEMKS6KeAPXazs/ezMUAXOMdM="},{"Name":"label","Value":"_content/Gambl/js/couse.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"550"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022GCPQDJUVieXsAxjEztAEMKS6KeAPXazs/ezMUAXOMdM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/js/home.j6pk77oxgm.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\home.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j6pk77oxgm"},{"Name":"integrity","Value":"sha256-e1/UgONsXSk8N0gR4QmBoYo0wqfRa4y2eiiQBcklkCA="},{"Name":"label","Value":"_content/Gambl/js/home.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1734"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022e1/UgONsXSk8N0gR4QmBoYo0wqfRa4y2eiiQBcklkCA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Gambl/js/home.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\home.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-e1/UgONsXSk8N0gR4QmBoYo0wqfRa4y2eiiQBcklkCA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1734"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022e1/UgONsXSk8N0gR4QmBoYo0wqfRa4y2eiiQBcklkCA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 23 Dec 2024 08:34:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
